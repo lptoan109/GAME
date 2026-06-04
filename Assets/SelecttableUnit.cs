@@ -53,7 +53,7 @@ public class SelecttableUnit : MonoBehaviour
         isSelected = status; // Đánh dấu object này là không được chọn
         sRenderer.color = isSelected?Color.green:Color.white; // Trả về màu sắc ban đầu
     }
-    public bool isUnitSelected()
+    public bool IsUnitSelected()
     {
         return isSelected; // Trả về trạng thái được chọn của object này
     }

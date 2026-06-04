@@ -51,4 +51,13 @@ public class GridMovement : MonoBehaviour
             }
         }
     }
+    public void StopMoving()
+    {
+        isMoving = false; // Tắt cờ di chuyển
+    }
+    public void SetNewTarget(Vector3 newTargetPos)
+    { 
+        targetPosition = newTargetPos;
+        isMoving = true; // Kích hoạt cờ di chuyển
+    }
 }
